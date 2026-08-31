@@ -59,4 +59,4 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
       - name: Deploy to ECS
         run: |
-          aws ecs update-service --cluster fastapi-cluster --service fastapi-service --force-new-deployment
+          aws ecs update-service --cluster frequent-elephant-akkc4n --service frequent-elepjhant-b3cele-service-ssl2oihn --force-new-deployment
