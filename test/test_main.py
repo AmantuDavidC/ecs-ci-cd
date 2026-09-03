@@ -6,4 +6,4 @@ client = TestClient(app)
 def test_index():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"message": "Hello, this is the third app!"}
+    assert response.json() == {"message": "Hello, this is the linear deployment app!"}
